@@ -22,39 +22,34 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.0.6.Final</version>
+        </dependency>
+
+
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-
-            </plugin>
-        </plugins>
-    </build>
 
 
 
 
-    <profiles>
-        <profile>
-            <id>local</id>
+
 
             <repositories>
                 <repository>
                     <snapshots>
                         <enabled>false</enabled>
                     </snapshots>
-                    <id>central</id>
+                    <id>AAAA</id>
                     <name>Central Repository</name>
                     <url>https://repo.maven.apache.org/maven2</url>
                 </repository>
             </repositories>
 
 
-        </profile>
-    </profiles>
+
 
 
 
